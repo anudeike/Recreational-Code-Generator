@@ -1,0 +1,10 @@
+Purpose: To create a simple recreational code generator,
+
+- I'm tired of creating the same files over and over again every time I want to
+  start a fun recreational project.
+
+  The idea is that I just send in a piece of "code" - like a script that will give my compiler
+  instuctions on how to generate the code.
+
+Plan:
+    For now, lets just create example code trmeplates that I want it to generate.
