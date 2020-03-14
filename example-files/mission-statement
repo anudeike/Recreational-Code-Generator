@@ -1,3 +1,8 @@
+Idk what to call this language - possible a .vera file? Seems pretty great to me?
+ or a .ve file
+
+ Vera is the name of the langauge that I'll be using
+
 Purpose: To create a simple recreational code generator,
 
 - I'm tired of creating the same files over and over again every time I want to
@@ -8,3 +13,6 @@ Purpose: To create a simple recreational code generator,
 
 Plan:
     For now, lets just create example code trmeplates that I want it to generate.
+
+    Having created the first one -> "PlotGraph", instead of heading straight into creating a grammar, I think
+    it is better to start out with parsing a JSON file and then using it.

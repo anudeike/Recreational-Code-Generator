@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 """
 This is a simple function plotting code:
 
@@ -9,7 +10,17 @@ it plots the equation that you put into it.
 the idea is that another code will generate this template code (with specified values and what not)
 
 """
+class DataAnalysis():
 
+    def __init__(self):
+        self.data = 0
+
+    def displayData(self):
+        # displays the data in full to the user
+        print(self.data)
+
+
+# PlotGraph type
 class PlotGraph():
     """
     //create a plot graph class, name -> is the name of the object when it is called in main
@@ -25,8 +36,24 @@ class PlotGraph():
         stop = 100; //mandatory
         samples = 100;
         expression = "this will be a string that is parsable can should be used to create a math expression"
-        title = ' this is an optional string ';
-        graphColor
+        title = ' this is an optional string '; // will have a default value
+        graphColor = 'will have a default value'
+
+    Can Use JSON representation to parse information
+
+    " program " : { // can have an array here of different things
+        "PlotGraph": {
+            "name": string,
+            "start": number,
+            "stop": number,
+            "samples" = 100,
+            "expression" = string,
+            "title" = name(optional),
+            "graphColor" = "red" (optional)
+        }
+    }
+
+    for something like this
 
 
     """
@@ -61,13 +88,16 @@ class PlotGraph():
     def show(self):
         plt.show()
 
+    def call(self):
+        self.f()
+        self.plot()
+        self.show()
+
 def main():
 
     # these are the functions that you need to run to fully use the class
     graph = PlotGraph(0, 100, 100)
-    graph.f()
-    graph.plot()
-    graph.show()
+    graph.call()
 
 
 if __name__ == "__main__":
