@@ -4,7 +4,6 @@
     <list default="true" id="478bd515-6abe-4dd9-b53f-9a3e060cc0b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-files/rcg-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/rcg-example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,39 +25,39 @@
         <counts>
           <entry key="json" value="1" />
           <entry key="mission-statement" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="7" />
           <entry key="mission-statement" value="960" />
-          <entry key="py" value="6864" />
+          <entry key="py" value="7073" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
           <entry key="PLAIN_TEXT" value="960" />
-          <entry key="Python" value="6864" />
+          <entry key="Python" value="7073" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1584159909182" expanded="true" signature="249:251" ph="..." />
@@ -67,17 +66,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="291">
+              <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
               <folding>
                 <element signature="e#759#1390#0" />
                 <element signature="e#1416#1822#0" />
-                <marker date="1584159930618" expanded="true" signature="2319:2328" ph="..." />
-                <marker date="1584159930618" expanded="true" signature="2769:2770" ph="..." />
-                <marker date="1584159930618" expanded="true" signature="3602:3605" ph="..." />
+                <marker date="1584160726971" expanded="true" signature="2538:2543" ph="..." />
+                <marker date="1584160726971" expanded="true" signature="2994:2995" ph="..." />
+                <marker date="1584160726971" expanded="true" signature="3908:3911" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -298,18 +308,18 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32603937" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32603937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33150986" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33150986" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -339,9 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -349,27 +356,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state>
           <folding>
-            <element signature="e#759#1390#0" />
-            <element signature="e#1416#1822#0" />
-            <marker date="1584159930618" expanded="true" signature="2319:2328" ph="..." />
-            <marker date="1584159930618" expanded="true" signature="2769:2770" ph="..." />
-            <marker date="1584159930618" expanded="true" signature="3602:3605" ph="..." />
+            <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1584159909182" expanded="true" signature="249:251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+          <folding>
+            <element signature="e#759#1390#0" />
+            <element signature="e#1416#1822#0" />
+            <marker date="1584160726971" expanded="true" signature="2538:2543" ph="..." />
+            <marker date="1584160726971" expanded="true" signature="2994:2995" ph="..." />
+            <marker date="1584160726971" expanded="true" signature="3908:3911" ph="..." />
           </folding>
         </state>
       </provider>

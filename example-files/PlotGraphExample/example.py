@@ -1,6 +1,7 @@
-
 import numpy as np
 import matplotlib.pyplot as plt
+
+
 class Quadratic():
 	def __init__(self, start, stop, num_samples, title="Quadratic Graph"): 
 		self.function = ""
@@ -10,3 +11,22 @@ class Quadratic():
 
 	def f(self):
 		self.Y = [self.compute(x) for x in self.X]
+
+	def compute(self, x):
+		return np.sin(x)
+
+	def plot(self, scatter=False, color='red'):
+		plt.figure(1)
+		plt.title(self.title)
+		if scatter:
+			plt.scatter(self.X, self.Y, c=color)
+			return
+		plt.plot(self.X, self.Y, c=color)
+
+	def show(self):
+		plt.show()
+
+	def call(self):
+		self.f()
+		self.plot()
+		self.show()

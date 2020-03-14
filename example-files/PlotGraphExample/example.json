@@ -6,9 +6,7 @@
 		{
 			"PlotGraph": {
 				"name": "Quadratic",
-				"start": 0,
-				"stop": 100,
-				"samples": 100,
+                "scatter": true,
 				"expression": "x^2",
 				"title": "Quadratic Graph",
 				"graphColor": "red"

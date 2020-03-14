@@ -68,12 +68,13 @@ def PlotGraph(obj):
     :return:
     """
 
-    generated_text = "\nclass {}():".format(obj["name"])
+    generated_text = "\n\n\nclass {}():".format(obj["name"])
 
     # get the parameters needed from the object
     expression = obj["expression"]
     title = obj["name"] + " Graph"
     graphColor = "b"
+    scatter = False
 
     # optional parameters
     if obj["title"]:
@@ -81,6 +82,9 @@ def PlotGraph(obj):
 
     if obj["graphColor"]:
         graphColor = obj["graphColor"] # should be written more concisely in python 3.8
+
+    if obj["scatter"]:
+        scatter = obj["scatter"] # should be written more concisely in python 3.8
 
     # CONSTRUCTOR
     # def __init__(self, start, stop, num_samples, title="example"):
@@ -90,11 +94,32 @@ def PlotGraph(obj):
     generated_text += "\n\t\tself.X = np.linspace(start, stop, num_samples)"
     generated_text += "\n\t\tself.Y = []"
 
-    # F
+    # f()
     generated_text += "\n\n\tdef f(self):"
     generated_text += "\n\t\tself.Y = [self.compute(x) for x in self.X]"
 
-    print(generated_text)
+    # compute()
+    generated_text += "\n\n\tdef compute(self, x):"
+    generated_text += "\n\t\treturn np.sin(x)"
+
+    # plot()
+    generated_text += "\n\n\tdef plot(self, scatter=False, color='{}'):".format(graphColor)
+    generated_text += "\n\t\tplt.figure(1)\n\t\tplt.title(self.title)"
+    generated_text += "\n\t\tif scatter:"
+    generated_text += "\n\t\t\tplt.scatter(self.X, self.Y, c=color)\n\t\t\treturn"
+    generated_text += "\n\t\tplt.plot(self.X, self.Y, c=color)"
+
+    # show()
+    generated_text += "\n\n\tdef show(self):"
+    generated_text += "\n\t\tplt.show()"
+
+    # call()
+    generated_text += "\n\n\tdef call(self):"
+    generated_text += "\n\t\tself.f()"
+    generated_text += "\n\t\tself.plot()"
+    generated_text += "\n\t\tself.show()"
+
+    #print(generated_text)
     return generated_text
 
 def imports(obj):
@@ -114,6 +139,7 @@ def imports(obj):
 
 
     return generated_text
+
 
 # main function
 def main():
