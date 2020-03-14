@@ -68,7 +68,7 @@ def PlotGraph(obj):
     :return:
     """
 
-    generated_text = "\n\n\nclass {}():".format(obj["name"])
+    generated_text = "\n\n\nclass PlotGraph():"
 
     # get the parameters needed from the object
     expression = obj["expression"]
@@ -140,6 +140,15 @@ def imports(obj):
 
     return generated_text
 
+def generateMain(calls):
+    generated_text = "\n\ndef main():"
+
+    # generate the calls - each call is just an object in the program array
+    for call in calls:
+        generated_text += "\n\t{} = {}".format(call["objName"], call["callBody"])
+        generated_text += "\n\t{}.call()".format(call["objName"])
+
+    return generated_text
 
 # main function
 def main():
@@ -149,6 +158,9 @@ def main():
 
     # tokens -> generated from the stuff this is
     tokens = []
+
+    # keep track of calls in main function
+    calls = []
 
     # get the file we will be writing to
     pyFile = createFile("example")
@@ -166,8 +178,23 @@ def main():
 
         # check if the PlotGraph is there.
         if "PlotGraph" in obj:
+            PlotGraphObj = obj["PlotGraph"]
+
+            # add the plot graph to the classes
+            calls.append({
+                "objName": PlotGraphObj["name"],
+                "callBody": "PlotGraph({}, {}, {})".format(PlotGraphObj["start"], PlotGraphObj["stop"], PlotGraphObj["samples"])
+            })
+
+            # get the PlotGraph Token
             PlotGraph_token = PlotGraph(obj["PlotGraph"])
             tokens.append(PlotGraph_token)
+
+    # generate the main function
+    tokens.append(generateMain(calls))
+
+    # call the main function
+    tokens.append("\n\nif __name__ == \"__main__\":\n\tmain()")
 
     print("\nCurrent File Output: ")
     print("".join(tokens))

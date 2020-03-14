@@ -1,8 +1,9 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-class Quadratic():
+class PlotGraph():
 	def __init__(self, start, stop, num_samples, title="Quadratic Graph"): 
 		self.function = ""
 		self.title = title
@@ -30,3 +31,10 @@ class Quadratic():
 		self.f()
 		self.plot()
 		self.show()
+
+def main():
+	Quadratic = PlotGraph(0, 100, 100)
+	Quadratic.call()
+
+if __name__ == "__main__":
+	main()
