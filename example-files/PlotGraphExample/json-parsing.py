@@ -33,19 +33,14 @@ def createFile(fileName):
     return f
 
 
-def PlotGraph(obj):
-    """
-    Parses a PlotGraph Object
-    :param obj:
-    :return:
-    """
-    return None
+
 
 class Generator():
 
     def __init__(self, path, target_name):
         self.config = self.openFile(path)
         self.pyFile = self.createFile(target_name)
+        self.tokens = []  # holds the tokens
 
     def openFile(self, path):
         """
@@ -66,12 +61,39 @@ class Generator():
         with open(fileName, "w+") as f:
             return f
 
+def PlotGraph(obj):
+    """
+    Parses a PlotGraph Object
+    :param obj:
+    :return:
+    """
+    return None
+
+def imports(obj):
+    """
+    Handles the imports obj -> generates a string that contains the list of imports needed
+    :param obj:
+    :return:
+    """
+    generated_text = ""
+
+    for lib in obj:
+        if lib == "numpy":
+            generated_text += "\nimport numpy as np"
+
+        if lib == "pyplot":
+            generated_text += "\nimport matplotlib.pyplot as plt"
+
+
+    return generated_text
 
 # main function
 def main():
     # get the dictionary
     config = openFile(path)
 
+    # tokens -> generated from the stuff this is
+    tokens = []
     # get the file we will be writing to
     pyFile = createFile("example")
 
@@ -79,19 +101,18 @@ def main():
     for obj in config["program"]:
         # check if the imports is in there
         if "imports" in obj:
-            # imports()
+
+            # handle the imports and then append the result to the token list
+            tokens.append(imports(obj["imports"]))
             print("found imports")
 
         # check if the PlotGraph is there.
         if "PlotGraph" in obj:
-            # PlotGraph
+            # PlotGraph()
             print("Found PlotGraph")
 
-
-
-
-
-    return 0
+    print("Current File Output: ")
+    print("".join(tokens))
 
 
 if __name__ == "__main__":
