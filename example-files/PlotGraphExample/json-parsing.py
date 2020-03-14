@@ -34,7 +34,7 @@ def createFile(fileName):
 
 
 
-
+# not going to use just yet - make script first
 class Generator():
 
     def __init__(self, path, target_name):
@@ -67,6 +67,28 @@ def PlotGraph(obj):
     :param obj:
     :return:
     """
+
+    generated_text = "\nclass {}".format(obj["name"])
+
+    # get the parameters needed from the object
+    # name = obj["name"]
+    start = obj["start"]
+    stop = obj["stop"]
+    samples = obj["samples"]
+    expression = obj["expression"]
+    title = obj["name"] + " Graph"
+    graphColor = "b"
+
+    # optional parameters
+    if obj["title"]:
+        title = obj["title"] # should be written more concisely in python 3.8
+
+    if obj["graphColor"]:
+        title = obj["graphColor"] # should be written more concisely in python 3.8
+
+
+
+    print(obj)
     return None
 
 def imports(obj):
@@ -89,11 +111,13 @@ def imports(obj):
 
 # main function
 def main():
+
     # get the dictionary
     config = openFile(path)
 
     # tokens -> generated from the stuff this is
     tokens = []
+
     # get the file we will be writing to
     pyFile = createFile("example")
 
@@ -103,15 +127,17 @@ def main():
         if "imports" in obj:
 
             # handle the imports and then append the result to the token list
-            tokens.append(imports(obj["imports"]))
+            import_token = imports(obj["imports"])
+            tokens.append(import_token)
+
             print("found imports")
 
         # check if the PlotGraph is there.
         if "PlotGraph" in obj:
-            # PlotGraph()
+            PlotGraph(obj["PlotGraph"])
             print("Found PlotGraph")
 
-    print("Current File Output: ")
+    print("\nCurrent File Output: ")
     print("".join(tokens))
 
 
