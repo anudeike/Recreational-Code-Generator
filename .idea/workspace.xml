@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478bd515-6abe-4dd9-b53f-9a3e060cc0b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-parsing-peg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-files/PlotGraphExample/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-files/mission-statement" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/mission-statement" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example-files/rcg-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/rcg-example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,68 +18,76 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="json" value="1" />
           <entry key="mission-statement" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="mission-statement" value="708" />
-          <entry key="py" value="2972" />
+          <entry key="json" value="7" />
+          <entry key="mission-statement" value="960" />
+          <entry key="py" value="5082" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="708" />
-          <entry key="Python" value="2972" />
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="960" />
+          <entry key="Python" value="5082" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#326#441#0" />
-                <element signature="e#1126#1263#0" />
-                <marker date="1583884141313" expanded="true" signature="270:421" ph="..." />
-                <marker date="1583884141313" expanded="true" signature="345:354" ph="..." />
-                <marker date="1583884141313" expanded="false" signature="1397:2292" ph="..." />
-                <marker date="1583884141313" expanded="false" signature="1633:1642" ph="..." />
-                <marker date="1583884141313" expanded="false" signature="1768:1920" ph="..." />
-                <marker date="1583884141313" expanded="true" signature="2378:2383" ph="..." />
-                <marker date="1583884141313" expanded="true" signature="2378:2433" ph="..." />
+                <marker date="1584151463218" expanded="true" signature="272:435" ph="..." />
+                <marker date="1584151463218" expanded="true" signature="355:366" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+              <folding>
+                <element signature="e#759#1390#0" />
+                <marker date="1584152082991" expanded="true" signature="752:1392" ph="..." />
+                <marker date="1584152082991" expanded="true" signature="1898:1901" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example-parsing-peg.py">
+        <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#1491#2388#0" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-files/mission-statement">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="289">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -113,10 +120,12 @@
         <option value="$PROJECT_DIR$/example-parsing-peg.py" />
         <option value="$PROJECT_DIR$/example-files/mission-statement" />
         <option value="$PROJECT_DIR$/example-files/rcg-example.py" />
+        <option value="$PROJECT_DIR$/example-files/PlotGraphExample/example.json" />
+        <option value="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -133,6 +142,17 @@
             <path>
               <item name="recreational-code-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="recreational-code-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recreational-code-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recreational-code-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="example-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recreational-code-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recreational-code-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="example-files" type="462c0819:PsiDirectoryNode" />
+              <item name="PlotGraphExample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rcg-example (1)">
+  <component name="RunManager" selected="Python.json-parsing">
     <configuration name="example-parsing-peg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="recreational-code-generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +195,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example-parsing-peg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json-parsing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="recreational-code-generator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example-files/PlotGraphExample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,9 +270,11 @@
       <item itemvalue="Python.rcg-example" />
       <item itemvalue="Python.example-parsing-peg" />
       <item itemvalue="Python.rcg-example (1)" />
+      <item itemvalue="Python.json-parsing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json-parsing" />
         <item itemvalue="Python.rcg-example (1)" />
         <item itemvalue="Python.example-parsing-peg" />
         <item itemvalue="Python.rcg-example" />
@@ -252,23 +295,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10273973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32932165" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32603937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33150986" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -280,14 +323,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example-files/mission-statement">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        <state relative-caret-position="289">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example-parsing-peg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-958">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -298,19 +341,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#326#441#0" />
-            <element signature="e#1126#1263#0" />
-            <marker date="1583884141313" expanded="true" signature="270:421" ph="..." />
-            <marker date="1583884141313" expanded="true" signature="345:354" ph="..." />
-            <marker date="1583884141313" expanded="false" signature="1397:2292" ph="..." />
-            <marker date="1583884141313" expanded="false" signature="1633:1642" ph="..." />
-            <marker date="1583884141313" expanded="false" signature="1768:1920" ph="..." />
-            <marker date="1583884141313" expanded="true" signature="2378:2383" ph="..." />
-            <marker date="1583884141313" expanded="true" signature="2378:2433" ph="..." />
+            <marker date="1584151463218" expanded="true" signature="272:435" ph="..." />
+            <marker date="1584151463218" expanded="true" signature="355:366" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding>
+            <element signature="e#759#1390#0" />
+            <marker date="1584152082991" expanded="true" signature="752:1392" ph="..." />
+            <marker date="1584152082991" expanded="true" signature="1898:1901" ph="..." />
           </folding>
         </state>
       </provider>
