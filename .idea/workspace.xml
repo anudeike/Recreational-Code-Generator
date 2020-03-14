@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478bd515-6abe-4dd9-b53f-9a3e060cc0b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-files/rcg-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-files/rcg-example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,44 +40,44 @@
         <counts>
           <entry key="json" value="7" />
           <entry key="mission-statement" value="960" />
-          <entry key="py" value="6300" />
+          <entry key="py" value="6864" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
           <entry key="PLAIN_TEXT" value="960" />
-          <entry key="Python" value="6300" />
+          <entry key="Python" value="6864" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="85">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1584151463218" expanded="true" signature="272:435" ph="..." />
-                <marker date="1584151463218" expanded="true" signature="355:366" ph="..." />
+                <marker date="1584159909182" expanded="true" signature="249:251" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="428">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#759#1390#0" />
                 <element signature="e#1416#1822#0" />
-                <marker date="1584158843087" expanded="true" signature="2037:2038" ph="..." />
-                <marker date="1584158843087" expanded="true" signature="2870:2873" ph="..." />
+                <marker date="1584159930618" expanded="true" signature="2319:2328" ph="..." />
+                <marker date="1584159930618" expanded="true" signature="2769:2770" ph="..." />
+                <marker date="1584159930618" expanded="true" signature="3602:3605" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,8 +119,8 @@
         <option value="$PROJECT_DIR$/rcg-example.py" />
         <option value="$PROJECT_DIR$/example-parsing-peg.py" />
         <option value="$PROJECT_DIR$/example-files/mission-statement" />
-        <option value="$PROJECT_DIR$/example-files/rcg-example.py" />
         <option value="$PROJECT_DIR$/example-files/PlotGraphExample/example.json" />
+        <option value="$PROJECT_DIR$/example-files/rcg-example.py" />
         <option value="$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py" />
       </list>
     </option>
@@ -347,27 +349,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
+    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="428">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1584151463218" expanded="true" signature="272:435" ph="..." />
-            <marker date="1584151463218" expanded="true" signature="355:366" ph="..." />
+            <element signature="e#759#1390#0" />
+            <element signature="e#1416#1822#0" />
+            <marker date="1584159930618" expanded="true" signature="2319:2328" ph="..." />
+            <marker date="1584159930618" expanded="true" signature="2769:2770" ph="..." />
+            <marker date="1584159930618" expanded="true" signature="3602:3605" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-files/PlotGraphExample/json-parsing.py">
+    <entry file="file://$PROJECT_DIR$/example-files/rcg-example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
           <folding>
-            <element signature="e#759#1390#0" />
-            <element signature="e#1416#1822#0" />
-            <marker date="1584158843087" expanded="true" signature="2037:2038" ph="..." />
-            <marker date="1584158843087" expanded="true" signature="2870:2873" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1584159909182" expanded="true" signature="249:251" ph="..." />
           </folding>
         </state>
       </provider>

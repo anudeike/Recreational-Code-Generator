@@ -68,13 +68,9 @@ def PlotGraph(obj):
     :return:
     """
 
-    generated_text = "\nclass {}".format(obj["name"])
+    generated_text = "\nclass {}():".format(obj["name"])
 
     # get the parameters needed from the object
-    # name = obj["name"]
-    start = obj["start"]
-    stop = obj["stop"]
-    samples = obj["samples"]
     expression = obj["expression"]
     title = obj["name"] + " Graph"
     graphColor = "b"
@@ -84,12 +80,22 @@ def PlotGraph(obj):
         title = obj["title"] # should be written more concisely in python 3.8
 
     if obj["graphColor"]:
-        title = obj["graphColor"] # should be written more concisely in python 3.8
+        graphColor = obj["graphColor"] # should be written more concisely in python 3.8
 
+    # CONSTRUCTOR
+    # def __init__(self, start, stop, num_samples, title="example"):
+    generated_text += "\n\tdef __init__(self, start, stop, num_samples, title=\"{}\"): ".format(title)
+    generated_text += "\n\t\tself.function = \"\""
+    generated_text += "\n\t\tself.title = title"
+    generated_text += "\n\t\tself.X = np.linspace(start, stop, num_samples)"
+    generated_text += "\n\t\tself.Y = []"
 
+    # F
+    generated_text += "\n\n\tdef f(self):"
+    generated_text += "\n\t\tself.Y = [self.compute(x) for x in self.X]"
 
-    print(obj)
-    return None
+    print(generated_text)
+    return generated_text
 
 def imports(obj):
     """
@@ -134,11 +140,14 @@ def main():
 
         # check if the PlotGraph is there.
         if "PlotGraph" in obj:
-            PlotGraph(obj["PlotGraph"])
-            print("Found PlotGraph")
+            PlotGraph_token = PlotGraph(obj["PlotGraph"])
+            tokens.append(PlotGraph_token)
 
     print("\nCurrent File Output: ")
     print("".join(tokens))
+
+    # write to a file
+    pyFile.write("".join(tokens))
 
 
 if __name__ == "__main__":

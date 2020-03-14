@@ -10,14 +10,6 @@ it plots the equation that you put into it.
 the idea is that another code will generate this template code (with specified values and what not)
 
 """
-# class DataAnalysis():
-#
-#     def __init__(self):
-#         self.data = 0
-#
-#     def displayData(self):
-#         # displays the data in full to the user
-#         print(self.data)
 
 
 # PlotGraph type
