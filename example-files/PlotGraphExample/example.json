@@ -5,7 +5,7 @@
 		},
 		{
 			"PlotGraph": {
-				"name": "Quadratic",
+				"name": "Cubic",
                 "scatter": false,
 				"start": 0,
 				"stop": 100,

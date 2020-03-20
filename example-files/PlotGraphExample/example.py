@@ -33,8 +33,8 @@ class PlotGraph():
 		self.show()
 
 def main():
-	Quadratic = PlotGraph(0, 100, 100)
-	Quadratic.call()
+	Cubic = PlotGraph(0, 100, 100)
+	Cubic.call()
 
 if __name__ == "__main__":
 	main()
